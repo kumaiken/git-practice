@@ -1,3 +1,3 @@
 plot(iris$Petal.Length, iris$Petal.Width)
-result <- lm(Sepal.Width ~ Sepal.Length, data = iris)
-summary(result)
+res <- lm(Sepal.Width ~ Sepal.Length, data = iris)
+summary(res)
